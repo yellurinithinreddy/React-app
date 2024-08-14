@@ -13,6 +13,7 @@ const App=()=>{
     <Img></Img>
     <UnOrdList></UnOrdList> */}
     <h1>changing the Code</h1>
+    <h2>version 2</h2>
     <Table></Table>
     <Card></Card>
     </>
