@@ -12,7 +12,7 @@ const App=()=>{
     <OrdList></OrdList>
     <Img></Img>
     <UnOrdList></UnOrdList> */}
-
+  
     <Table></Table>
     <Card></Card>
     </>
