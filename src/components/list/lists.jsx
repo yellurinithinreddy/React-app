@@ -2,25 +2,27 @@
 
 
 
-const arr=["Toyota","Tata","Hyundai","Audi","Mercedes"]
-export const OrdList=()=>{
+// const arr=["Toyota","Tata","Hyundai","Audi","Mercedes"]
+export const OrdList=(props)=>{
+    const {list,bgColor}=props
     return(
-        <ol>
+        <ol style={{backgroundColor:bgColor}}>
             {
-                arr.map((e)=>{
-                    return <li>{e}</li>
+                list.map((e,index)=>{
+                    return <li key={index}>{e}</li>
                 })
             }
         </ol>
     )
 }
 
-export const UnOrdList=()=>{
+export const UnOrdList=(props)=>{
+    const {list}=props
     return(
         <ul>
             {
-                arr.map((e)=>{
-                    return <li>{e}</li>
+                list.map((e,index)=>{
+                    return <li key={index}>{e}</li>
                 })
             }
         </ul>
