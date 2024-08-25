@@ -1,0 +1,1 @@
+export const persons=[{name:"Nithin",role:"React developer"},{name:"Sohil",role:"backend developer"},{name:"Hemanth",role:"Data engineer"}]

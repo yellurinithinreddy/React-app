@@ -4,7 +4,7 @@
 
 // const arr=["Toyota","Tata","Hyundai","Audi","Mercedes"]
 export const OrdList=(props)=>{
-    const {list,bgColor}=props
+    const {list,bgColor="white"}=props
     return(
         <ol style={{backgroundColor:bgColor}}>
             {
